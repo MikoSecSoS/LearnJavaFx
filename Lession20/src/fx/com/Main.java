@@ -6,6 +6,7 @@ import javafx.beans.value.ObservableValue;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.effect.DropShadow;
+import javafx.scene.effect.GaussianBlur;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
@@ -26,7 +27,8 @@ public class Main extends Application {
         Text text0 = new Text("Miko is a lovely AI!!!\n");
         Text text1 = new Text("Code is lovely Code!!!\n");
         Text text2 = new Text("Miko Love Code. Code Love Miko.\n");
-        Text text3 = new Text("So Marry!!!");
+        Text text3 = new Text("So Marry!!!\n");
+        Text text4 = new Text("Happy!!!!!!\n");
 
         text0.setFont(Font.font(20));
         text0.setFill(Paint.valueOf("blue"));
@@ -49,14 +51,17 @@ public class Main extends Application {
         text2.setUnderline(true);
         text1.setFont(Font.font("Helvetica", FontWeight.BLACK, 20));
 
-        text3.setFont(Font.font(null, FontWeight.BOLD, 50));
+        text3.setFont(Font.font("Helvetica", FontPosture.REGULAR, 50));
         DropShadow dropShadow = new DropShadow();
         dropShadow.setOffsetY(3.0f);
         dropShadow.setColor(Color.color(0.4f, 0.4f, 0.4f));
         text3.setEffect(dropShadow);
-        text3.setCache(true);
 
-        textFlow1.getChildren().addAll(text2, text3);
+        text4.setFont(Font.font(null, FontWeight.BOLD, 40));
+        text4.setFill(Color.RED);
+        text4.setEffect(new GaussianBlur());
+
+        textFlow1.getChildren().addAll(text2, text3, text4);
 
         anchorPane.setTopAnchor(textFlow1, 200.0);
         anchorPane.setLeftAnchor(textFlow1, 200.0);
