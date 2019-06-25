@@ -139,15 +139,16 @@ class MyScheduledService extends ScheduledService<Integer> {
 
             @Override
             protected void updateValue(Integer value) {
-                System.out.println("[updateValue()] " + Thread.currentThread().getName());
-                System.out.println("[updateValue()] value = " + value);
                 if (value > 1) {
-                    dialogPane.setContentText(String.valueOf(value)); // 倒计时
+                    MyScheduledService.this.dialogPane.setContentText(String.valueOf(value)); // 倒计时
                 } else {
                     this.cancel();
 
 //                    MyScheduledService.this.stage.close();
-                    stage.close(); // 关闭窗口
+                    MyScheduledService.this.stage.close(); // 关闭窗口
+
+                System.out.println("[updateValue()] " + Thread.currentThread().getName());
+                System.out.println("[updateValue()] value = " + value);
 
                 }
             }
