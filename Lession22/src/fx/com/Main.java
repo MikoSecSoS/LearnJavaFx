@@ -1,6 +1,8 @@
 package fx.com;
 
 import javafx.application.Application;
+import javafx.concurrent.ScheduledService;
+import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
@@ -14,6 +16,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import javafx.util.Duration;
 
 public class Main extends Application {
 
@@ -92,6 +95,13 @@ public class Main extends Application {
                         System.out.println("[close]");
                     }
                 });
+
+
+                MyScheduledService myScheduledService = new MyScheduledService(dialogPane, stage);
+                myScheduledService.setDelay(Duration.millis(0));
+                myScheduledService.setPeriod(Duration.millis(1000)); // 间隔
+
+                myScheduledService.start();
             }
         });
 
@@ -101,5 +111,46 @@ public class Main extends Application {
         primaryStage.setWidth(700);
         primaryStage.setHeight(550);
         primaryStage.show();
+    }
+}
+
+
+class MyScheduledService extends ScheduledService<Integer> {
+
+    int i = 10;
+
+    private DialogPane dialogPane = null;
+    private Stage stage = null;
+
+    public MyScheduledService(DialogPane dialogPane, Stage stage) {
+        this.dialogPane = dialogPane;
+        this.stage = stage;
+    }
+
+    @Override
+    protected Task<Integer> createTask() {
+        return new Task<Integer>() {
+
+            @Override
+            protected Integer call() throws Exception {
+                System.out.println("[call()] " + Thread.currentThread().getName());
+                return i -= 1;
+            }
+
+            @Override
+            protected void updateValue(Integer value) {
+                System.out.println("[updateValue()] " + Thread.currentThread().getName());
+                System.out.println("[updateValue()] value = " + value);
+                if (value > 1) {
+                    dialogPane.setContentText(String.valueOf(value)); // 倒计时
+                } else {
+                    this.cancel();
+
+//                    MyScheduledService.this.stage.close();
+                    stage.close(); // 关闭窗口
+
+                }
+            }
+        };
     }
 }
