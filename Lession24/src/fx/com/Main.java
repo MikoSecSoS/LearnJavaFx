@@ -89,6 +89,27 @@ public class Main extends Application {
 
 //                System.out.println(t_username.getUserData());
 
+                try {
+                    Integer.valueOf(p_password.getText());
+                } catch (Exception e) {
+                    System.out.println("Not Cute>_<");
+
+                    l_username.setTextFill(Color.RED);
+                    l_password.setTextFill(Color.RED);
+
+                    primaryStage.setTitle("Username or Password error.");
+
+                    FadeTransition fadeTransition = new FadeTransition();
+
+                    fadeTransition.setDuration(Duration.seconds(0.2));
+                    fadeTransition.setNode(gridPane);
+                    fadeTransition.setFromValue(0);
+                    fadeTransition.setToValue(1);
+
+                    fadeTransition.play();
+                    return;
+                }
+
                 String name = (String)t_username.getUserData();
                 int pwd = (int)p_password.getUserData();
 
