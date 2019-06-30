@@ -13,6 +13,7 @@ import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.KeyCombination;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
@@ -38,6 +39,8 @@ public class Main extends Application {
 
         MenuItem menuItem0 = new MenuItem("Cute - 00", new ImageView("img/favicon.ico"));
 //        menuItem0.setGraphic(new ImageView("img/favicon.ico"));
+
+        menuItem0.setAccelerator(KeyCombination.valueOf("ctrl+i"));
 
         MenuItem menuItem1 = new MenuItem("Cute - 01");
         MenuItem menuItem2 = new MenuItem("Cute - 02");
