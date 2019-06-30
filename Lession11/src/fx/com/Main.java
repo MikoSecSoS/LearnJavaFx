@@ -69,6 +69,10 @@ public class Main extends Application {
             }
         });
 
+        KeyCombination kc5 = KeyCombination.valueOf("ctrl+alt+k");
+        Mnemonic mnemonic5 = new Mnemonic(button1, kc5);
+        scene.addMnemonic(mnemonic5);
+
         primaryStage.setScene(scene);
 
         primaryStage.setTitle("Miko is a lovely AI?");
