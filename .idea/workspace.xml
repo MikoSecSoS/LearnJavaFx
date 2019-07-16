@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Lession37/Lession37.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lession37/src/fx/com/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lession38/Lession38.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lession38/src/fx/com/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lession38/src/fx/com/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lession38/src/fx/com/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lession1/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lession1/.project" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,19 +73,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lession36/src/fx/com/Main.java">
+        <entry file="file://$PROJECT_DIR$/Lession36/src/fx/com/Main1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-53">
-              <caret line="50" selection-end-line="89" />
+            <state relative-caret-position="240">
+              <caret line="55" column="11" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="55" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lession36/src/fx/com/Main1.java">
+        <entry file="file://$PROJECT_DIR$/Lession38/src/fx/com/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="74" column="34" selection-end-line="117" selection-end-column="1" />
+            <state relative-caret-position="165">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -89,21 +93,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lession36/src/fx/com/Main2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="1050">
               <caret line="93" selection-start-line="93" selection-end-line="93" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lession37/src/fx/com/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lession38/src/fx/com/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="118" column="65" lean-forward="true" selection-start-line="118" selection-start-column="65" selection-end-line="118" selection-end-column="65" />
+              <caret line="32" column="37" selection-end-line="64" />
               <folding>
-                <element signature="e#1267#1276#0" expanded="true" />
-                <element signature="e#4985#4986#0" expanded="true" />
-                <element signature="e#5011#5012#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#644#652#0" expanded="true" />
+                <element signature="e#1538#1539#0" expanded="true" />
+                <element signature="e#1626#1627#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lession38/src/fx/com/Main1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#884#893#0" expanded="true" />
+                <element signature="e#3234#3235#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,8 +137,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JavaFXApplication" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -148,9 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Lession2/src/fx/com/Launch.java" />
-        <option value="$PROJECT_DIR$/Lession2/src/fx/com/Main3.java" />
-        <option value="$PROJECT_DIR$/Lession2/src/fx/com/Main4.java" />
         <option value="$PROJECT_DIR$/Lession3/src/fx/com/Main.java" />
         <option value="$PROJECT_DIR$/Lession4/src/fx/com/Main.java" />
         <option value="$PROJECT_DIR$/Lession4/src/fx/com/Main2.java" />
@@ -199,6 +219,9 @@
         <option value="$PROJECT_DIR$/Lession36/src/fx/com/Main1.java" />
         <option value="$PROJECT_DIR$/Lession36/src/fx/com/Main2.java" />
         <option value="$PROJECT_DIR$/Lession37/src/fx/com/Main.java" />
+        <option value="$PROJECT_DIR$/Lession38/src/fx/com/Main.java" />
+        <option value="$PROJECT_DIR$/Lession38/src/fx/com/Student.java" />
+        <option value="$PROJECT_DIR$/Lession38/src/fx/com/Main1.java" />
       </list>
     </option>
   </component>
@@ -223,7 +246,18 @@
           <expand>
             <path>
               <item name="BiliBili_Aimls_JavaFx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lession37" type="462c0819:PsiDirectoryNode" />
+              <item name="Lession38" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BiliBili_Aimls_JavaFx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lession38" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BiliBili_Aimls_JavaFx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lession38" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -277,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main1 (2)">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -296,9 +330,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fx.com.Main" />
-      <module name="Lession36" />
+      <module name="Lession38" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -324,9 +358,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fx.com.Main" />
-      <module name="Lession35" />
+    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fx.com.Main1" />
+      <module name="Lession36" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -338,9 +372,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fx.com.Main1" />
-      <module name="Lession36" />
+      <module name="Lession38" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -420,19 +454,19 @@
     <list>
       <item itemvalue="Application.Main1" />
       <item itemvalue="Application.Main2" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main1 (1)" />
       <item itemvalue="Application.Main2 (1)" />
       <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main1 (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main1 (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main2 (1)" />
         <item itemvalue="Application.Main1 (1)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -464,9 +498,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20801815" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21104388" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -475,10 +508,10 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39935064" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32899022" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32899022" />
@@ -522,36 +555,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lession15/src/fx/com/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="40" selection-start-line="40" selection-end-line="41" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lession16/src/fx/com/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-jdk/javafx-src.zip!/javafx/scene/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="2390" selection-start-line="2390" selection-end-line="2390" />
-          <folding>
-            <element signature="e#97725#97726#0" expanded="true" />
-            <element signature="e#97769#97770#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lession18/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -889,33 +892,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lession36/src/fx/com/Main2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="1050">
           <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lession36/src/fx/com/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="50" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lession36/src/fx/com/Main1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="74" column="34" selection-end-line="117" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lession37/src/fx/com/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="44" selection-start-line="44" selection-end-line="46" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lession38/src/fx/com/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="118" column="65" lean-forward="true" selection-start-line="118" selection-start-column="65" selection-end-line="118" selection-end-column="65" />
+          <caret line="32" column="37" selection-end-line="64" />
           <folding>
-            <element signature="e#1267#1276#0" expanded="true" />
-            <element signature="e#4985#4986#0" expanded="true" />
-            <element signature="e#5011#5012#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#644#652#0" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lession36/src/fx/com/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="50" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lession38/src/fx/com/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lession36/src/fx/com/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="55" column="11" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="55" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lession38/src/fx/com/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#884#893#0" expanded="true" />
+            <element signature="e#3234#3235#0" expanded="true" />
           </folding>
         </state>
       </provider>
