@@ -23,6 +23,33 @@ public class Main extends Application {
         AnchorPane anchorPane = new AnchorPane();
         anchorPane.setStyle("-fx-background-color: #0FFFFF");
 
+//        Student student = new Student("Miko", 16);
+//        Student student1 = new Student("Code", -1);
+//        Student student2 = new Student("Cute", 16);
+//        ObservableList<Student> list = FXCollections.observableArrayList();
+//        list.addAll(student, student1, student2);
+//
+//        Spinner spinner = new Spinner<Student>();
+//
+//        SpinnerValueFactory.ListSpinnerValueFactory slvf = new SpinnerValueFactory.ListSpinnerValueFactory<Student>(list);
+//
+//        slvf.setConverter(new StringConverter<Student>() {
+//            @Override
+//            public String toString(Student object) {
+//                if (object != null) {
+//                    return object.getName() + " - " + object.getAge();
+//                }
+//                return "";
+//            }
+//
+//            @Override
+//            public Student fromString(String string) {
+//                return null;
+//            }
+//        });
+//
+//        spinner.setValueFactory(slvf);
+
 //        Spinner spinner = new Spinner<Integer>(0, 10, 5, 2);
 
 //        ObservableList<String> list = FXCollections.observableArrayList();
@@ -66,6 +93,8 @@ public class Main extends Application {
                 return student3;
             }
         });
+
+        svf.setValue(student);
 
 //        spinner2.setValueFactory(new SpinnerValueFactory() {
 //            @Override
@@ -121,6 +150,8 @@ class SVF extends SpinnerValueFactory<Student> {
         } else {
             index -= steps;
         }
+
+        System.out.println(list.get(index));
 
         this.setValue(list.get(index));
 
