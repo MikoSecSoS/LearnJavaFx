@@ -147,7 +147,7 @@ class Data {
 class Data2 {
     private String name;
 
-    private SimpleStringProperty namePro = null;
+    private SimpleStringProperty namePro;
 
     public Data2(String name) {
         if (namePro == null) {
