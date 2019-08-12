@@ -22,7 +22,7 @@ public class Main {
         System.out.println("[myIntegerBinding] " + myIntegerBinding.get());
         System.out.println("[simpleIntegerProperty] " + simpleIntegerProperty.get());
 
-        
+
 
     }
 
